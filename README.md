@@ -4,4 +4,4 @@ Este projeto utilizará amplamente o pacote fitdistrplus, criado por Marie Laure
 
 DELIGNETTE-MULLER, Marie Laure; DUTANG, Christophe. fitdistrplus: An R package for fitting distributions. Journal of statistical software, v. 64, p. 1-34, 2015.
 
-* WORK IN PROGRESS *
+WORK IN PROGRESS
