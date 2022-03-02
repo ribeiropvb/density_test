@@ -2,6 +2,10 @@ Este projeto tem como finalidade a criação de uma função a qual seja capaz d
 
 Este projeto utilizará amplamente o pacote fitdistrplus, criado por Marie Laure Delignette-Muller e Christophe Dutang, publicado em 2015.
 
+
+
+
+
 DELIGNETTE-MULLER, Marie Laure; DUTANG, Christophe. fitdistrplus: An R package for fitting distributions. Journal of statistical software, v. 64, p. 1-34, 2015.
 
 
