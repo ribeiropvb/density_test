@@ -28,8 +28,8 @@ cont_lnormal <- function(x){
   
   # Simulação PDF e CDF ####
   xs <- seq(
-    from = min(x),
-    to = quantile(x,0.95),
+    from = 0,
+    to = quantile(x,0.975),
     length.out = 500
   )
   
