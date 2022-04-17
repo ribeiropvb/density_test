@@ -1,4 +1,5 @@
-binomial_estimation <- function(y){
+binomial_estimation <- function(x){
+  val <- c()
   for (j in 1:1000) {
     xi <- sample(x, 150, replace = T)
     ## likelihood function
@@ -6,7 +7,7 @@ binomial_estimation <- function(y){
       -sum(dbinom(xi,prob=p,size=n,log=TRUE))
     }
     ## possible N values (15 to 50)
-    nvec <- max(x1):50
+    nvec <- max(xi):50
     Lvec <- numeric(length(nvec))
     for (i in 1:length(nvec)) {
       ## optim() wants method="Brent"/lower/upper for 1-D optimization
